@@ -13,5 +13,12 @@ class TestMMFunctions < Minitest::Test
 		assert_equal(2,mined_mind_function(2))
 	end
 	
+	def test_mined_returnsmind
+		assert_equal("mined",mined_mind_function(3))
+	end
+
+
+
 
 end
+

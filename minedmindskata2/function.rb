@@ -1,3 +1,7 @@
 def mined_mind_function(number)
-		number
-end
+	if	number== 3
+		'mined'
+	else
+	  number
+	end
+end 		
