@@ -9,6 +9,9 @@ class TestMMFunctions < Minitest::Test
 		assert_equal(1,mined_mind_function(1))
 		
 	end
+	def test_mined_minds_function_returns2
+		assert_equal(2,mined_mind_function(2))
+	end
 	
 
 end
